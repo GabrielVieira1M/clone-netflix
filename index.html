@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netflix-copia</title>
+
+    <!-- CSS integration-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <!-- Plans -->
+      <section id="plans">
+        <span class="plans-new">Novo!</span>
+        <p class="plans-text">
+          Planos a partir de <span class="price">R$18,90.</span>
+        </p>
+        <a href="" class="plans-btn">Saiba mais <span> &gt;</span></a>
+      </section>
+
+      <div class="bg-netflix navbar-bg">
+        <!-- Navbar -->
+        <nav class="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand">NETFLIX</a>
+            <form class="d-flex navbar-drop" role="search" action="../clone-loginNetflix/login-netflix-clone/index.html">
+              <select
+                class="drop-btn btn-md"
+                tabindex="0"
+                placeholder="lang-switcher"
+              >
+                <option
+                  selected=""
+                  value="/br/"
+                  data-language="pt"
+                  data-country="BR"
+                  lang="pt"
+                >
+                  Português
+                </option>
+                <option
+                  value="/br-en/"
+                  data-language="en"
+                  data-country="BR"
+                  lang="en"
+                >
+                  English
+                </option>
+              </select>
+              <button class="btn btn-danger" type="submit">Entrar</button>
+            </form>
+          </div>
+        </nav>
+
+        <!-- ASS -->
+
+        <section class="ass">
+          <h1 class="ass-title">Filmes, séries e muito mais. Sem limites.</h1>
+          <h2 class="ass-subtitle">
+            Assista onde quiser. Cancele quando quiser.
+          </h2>
+          <p class="header-text">
+            Pronto para assistir? Informe seu email para criar ou reiniciar sua
+            assinatura.
+          </p>
+          <div class="ass-form">
+            <input type="email" name="email" id="email" placeholder="Email" />
+            <button class="ass-form-btn" type="submit">
+              Vamos lá <span> &gt;</span>
+            </button>
+          </div>
+        </section>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main id="main">
+      <!--Plain Advantages -->
+      <section
+        id="netflix-advantages"
+        class="d-lg-flex justify-content-center align-items-center gap-2"
+      >
+        <div class="advantages-desc">
+          <h3 class="advantages-title">Aproveite na TV.</h3>
+          <p class="advantages-description">
+            Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+            aparelhos de Blu-ray e outros dispositivos.
+          </p>
+        </div>
+        <div class="advantages-img">
+          <img
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+            alt=""
+          />
+        </div>
+      </section>
+      <section
+        id="netflix-advantages"
+        class="d-lg-flex justify-content-center align-items-center gap-2"
+      >
+        <div class="advantages-img order-md-2">
+          <img
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
+            alt=""
+          />
+        </div>
+        <div class="advantages-desc order-md-1">
+          <h3 class="advantages-title">Assista quando quiser.</h3>
+          <p class="advantages-description">
+            Assista no celular, tablet, Smart TV ou notebook sem pagar a mais
+            por isso.
+          </p>
+        </div>
+      </section>
+      <section
+        id="netflix-advantages"
+        class="d-lg-flex justify-content-center align-items-center gap-2"
+      >
+        <div class="advantages-desc">
+          <h3 class="advantages-title">Crie perfis para crianças.</h3>
+          <p class="advantages-description">
+            Deixe as crianças se aventurarem com seus personagens favoritos em
+            um espaço feito só para elas, sem pagar a mais por isso.
+          </p>
+        </div>
+        <div class="advantages-img">
+          <img
+            src="https://occ-0-2124-1567.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABWGB3YOpSh2wA7OOZQYD-MkalQ0oJEy-YEEpoPKAIenLtZf5lKeERDdKj-u6WnZx9wx_QuiDVHkGM_1QmVQt9yxM7mKjevBNHKFz.png?r=1b8"
+            alt=""
+          />
+        </div>
+      </section>
+      <section
+        id="netflix-advantages"
+        class="d-lg-flex justify-content-center align-items-center gap-2"
+      >
+        <div class="advantages-img order-2">
+          <img
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+            alt=""
+          />
+        </div>
+        <div class="advantages-desc">
+          <h3 class="advantages-title">Baixe séries para assistir offline.</h3>
+          <p class="advantages-description">
+            Disponível em todos os planos, exceto no Básico com anúncios.
+          </p>
+        </div>
+      </section>
+
+      <!--common questions -->
+      <section id="commom-questions">
+        <h3 class="question-title">Perguntas Frequentes</h3>
+        <div class="question">
+          <h6 id="questions-btn" class="question-subtitle">
+            O que é a netflix? <span>+</span>
+          </h6>
+          <p class="question-text closed-text">
+            A Netflix é um serviço de streaming que oferece uma ampla variedade
+            de séries, filmes e documentários premiados em milhares de aparelhos
+            conectados à internet.
+          </p>
+          <p class="question-text closed-text">
+            Você pode assistir a quantos filmes e séries quiser, quando e onde
+            quiser – tudo por um preço mensal acessível. Aqui você sempre
+            encontra novidades. A cada semana, adicionamos novas séries e
+            filmes.
+          </p>
+        </div>
+
+        <div class="question">
+          <h6 id="questions-btn" class="question-subtitle">
+            Quanto custa a netflix? <span>+</span>
+          </h6>
+          <p class="question-text closed-text">
+            A Netflix é um serviço de streaming que oferece uma ampla variedade
+            de séries, filmes e documentários premiados em milhares de aparelhos
+            conectados à internet.
+          </p>
+          <p class="question-text closed-text">
+            Você pode assistir a quantos filmes e séries quiser, quando e onde
+            quiser – tudo por um preço mensal acessível. Aqui você sempre
+            encontra novidades. A cada semana, adicionamos novas séries e
+            filmes.
+          </p>
+        </div>
+
+        <div class="question">
+          <h6 id="questions-btn" class="question-subtitle">
+            O que muda no plano Basico com anúncios? <span>+</span>
+          </h6>
+          <p class="question-text closed-text">
+            A Netflix é um serviço de streaming que oferece uma ampla variedade
+            de séries, filmes e documentários premiados em milhares de aparelhos
+            conectados à internet.
+          </p>
+          <p class="question-text closed-text">
+            Você pode assistir a quantos filmes e séries quiser, quando e onde
+            quiser – tudo por um preço mensal acessível. Aqui você sempre
+            encontra novidades. A cada semana, adicionamos novas séries e
+            filmes.
+          </p>
+        </div>
+        <div class="question">
+          <h6 id="questions-btn" class="question-subtitle">
+            Onde posso assistir? <span>+</span>
+          </h6>
+          <p class="question-text closed-text">
+            A Netflix é um serviço de streaming que oferece uma ampla variedade
+            de séries, filmes e documentários premiados em milhares de aparelhos
+            conectados à internet.
+          </p>
+          <p class="question-text closed-text">
+            Você pode assistir a quantos filmes e séries quiser, quando e onde
+            quiser – tudo por um preço mensal acessível. Aqui você sempre
+            encontra novidades. A cada semana, adicionamos novas séries e
+            filmes.
+          </p>
+        </div>
+
+        <div class="question">
+          <h6 id="questions-btn" class="question-subtitle">
+            Como faço para cancelar? <span>+</span>
+          </h6>
+          <p class="question-text closed-text">
+            A Netflix é um serviço de streaming que oferece uma ampla variedade
+            de séries, filmes e documentários premiados em milhares de aparelhos
+            conectados à internet.
+          </p>
+          <p class="question-text closed-text">
+            Você pode assistir a quantos filmes e séries quiser, quando e onde
+            quiser – tudo por um preço mensal acessível. Aqui você sempre
+            encontra novidades. A cada semana, adicionamos novas séries e
+            filmes.
+          </p>
+        </div>
+
+        <div class="question">
+          <h6 id="questions-btn" class="question-subtitle">
+            O que posso assistir Netflix? <span>+</span>
+          </h6>
+          <p class="question-text closed-text">
+            A Netflix é um serviço de streaming que oferece uma ampla variedade
+            de séries, filmes e documentários premiados em milhares de aparelhos
+            conectados à internet.
+          </p>
+          <p class="question-text closed-text">
+            Você pode assistir a quantos filmes e séries quiser, quando e onde
+            quiser – tudo por um preço mensal acessível. Aqui você sempre
+            encontra novidades. A cada semana, adicionamos novas séries e
+            filmes.
+          </p>
+        </div>
+
+        <div class="question">
+          <h6 id="questions-btn" class="question-subtitle">
+            A Netflix é adequada para crianças? <span>+</span>
+          </h6>
+          <p class="question-text closed-text">
+            A Netflix é um serviço de streaming que oferece uma ampla variedade
+            de séries, filmes e documentários premiados em milhares de aparelhos
+            conectados à internet.
+          </p>
+          <p class="question-text closed-text">
+            Você pode assistir a quantos filmes e séries quiser, quando e onde
+            quiser – tudo por um preço mensal acessível. Aqui você sempre
+            encontra novidades. A cada semana, adicionamos novas séries e
+            filmes.
+          </p>
+        </div>
+      </section>
+      <div class="login-email">
+        <p class="header-text">
+          Pronto para assistir? Informe seu email para criar ou reiniciar sua
+          assinatura.
+        </p>
+        <div class="question-form">
+          <input
+            type="email"
+            name="email"
+            id="email-quest"
+            placeholder="Email"
+          />
+          <button class="ass-form-btn" type="submit">
+            Vamos lá <span> &gt;</span>
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer  -->
+    <footer id="footer">
+      <h6 class="footer-title">
+        Dúvidas? Ligue <a href="cel:0800 591 8942">0800 591 8942</a>
+      </h6>
+      <div class="row footer-questions">
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Perguntas frequentes</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Central de Ajuda</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Conta </a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Media Center</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link"> Relações com investidores</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Carreiras</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Resgatar</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">cartão pré-pago</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Comprar cartão pré-pago</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Formas de assistir</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Termos de Uso</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Privacidade</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Preferências de cookies</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Informações corporativas</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Entre em contato</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Teste de velocidade</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Avisos legais</a>
+        <a href="#" class="col-lg-3 col-md-4 col-sm-6 footer-link">Só na Netflix</a>
+      </div>
+
+      <div class="footer-language">
+        <select
+          class="drop-btn btn-md"
+          tabindex="0"
+          placeholder="lang-switcher"
+        >
+          <option
+            selected=""
+            value="/br/"
+            data-language="pt"
+            data-country="BR"
+            lang="pt"
+          >
+            Português
+          </option>
+          <option
+            value="/br-en/"
+            data-language="en"
+            data-country="BR"
+            lang="en"
+          >
+            English
+          </option>
+        </select>
+      </div>
+
+      <p>Netflix Brasil</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
